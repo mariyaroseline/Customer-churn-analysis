@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS churn_db;
+USE churn_db;
+SHOW TABLES;
+SELECT * FROM churn_table LIMIT 10;
