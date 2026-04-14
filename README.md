@@ -11,7 +11,41 @@ Objectives
 - Build a machine learning model to predict customer churn  
 - Identify key factors influencing churn  
 - Develop an interactive dashboard for business insights  
-- Create a Streamlit application for real-time predictions  
+- Create a Streamlit application for real-time predictions
+
+Methodology  
+
+1. Data Collection  
+Customer dataset including demographics, usage patterns, and churn status  
+
+2. Data Preprocessing  
+- Handled missing values  
+- Encoded categorical variables  
+
+3. Data Storage  
+- Stored processed data in MySQL database  
+
+4. Exploratory Data Analysis (EDA)  
+- Analyzed churn distribution  
+- Identified customer behavior patterns  
+
+5. Statistical Analysis  
+- Evaluated correlation between features and churn  
+
+6. Data Visualization  
+- Created bar charts and plots for churn vs features  
+
+7. Feature Selection  
+- Selected important features influencing churn  
+
+8. Model Building  
+- Applied Logistic Regression using Scikit-learn  
+
+9. Prediction  
+- Predicted customer churn (Yes/No)  
+
+10. Insights  
+- Derived key factors responsible for customer churn   
 
 Tools and Technologies  
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
@@ -54,7 +88,7 @@ The Power BI dashboard provides:
 - KPI metrics (total customers, churned customers, churn rate)  
 - Customer distribution and segmentation analysis  
 - Churn trends based on tenure and monthly charges  
-- - Churn drivers analysis using Power BI Decomposition Tree (AI-based visual)  
+- Churn drivers analysis using Power BI Decomposition Tree (AI-based visual)  
 - Business insights for decision-making  
 
 How to Run the Project  
